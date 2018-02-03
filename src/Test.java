@@ -3,17 +3,17 @@
 
 class Test {
 	// // method to print the divisors
-	// static void printDivisors(int n)
-	// {
-	// for (int i=1;i<=n;i++)
-	// if (n%i==0)
-	// System.out.printf("%d ",i);
-	// }
+	static void printDivisors(int n) {
+		for (int i = 1; i <= n; i++)
+			if (n % i == 0)
+				System.out.printf("%d ", i);
+	}
 
 	// Driver method
 	public static void main(String args[]) {
 		System.out.println("The divisors of 100 are: ");
-		// printDivisors(100);;
+		printDivisors(100);
+		System.out.println();
 		int index = 0;
 		int arr[] = new int[10];
 		for (int i = 1; i <= 10; i++) {
